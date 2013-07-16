@@ -1,0 +1,38 @@
+<dynWorkspace X="0" Y="0" zoom="1" Name="Update-PerformBounce" Category="MyGame" ID="34903111-2fd7-434a-829a-5059896b8bf1">
+  <dynElements>
+    <Dynamo.Nodes.dynSymbol type="Dynamo.Nodes.dynSymbol" guid="0d5c336d-79c5-4302-b5d9-52db34016d88" nickname="Input" x="15.9951476511123" y="42.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="ball vel" />
+    </Dynamo.Nodes.dynSymbol>
+    <Dynamo.Nodes.dynSymbol type="Dynamo.Nodes.dynSymbol" guid="05912a18-aba3-42ec-8b58-a458bfab6279" nickname="Input" x="14.9951476511123" y="122.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="ball radius" />
+    </Dynamo.Nodes.dynSymbol>
+    <Dynamo.Nodes.dynSymbol type="Dynamo.Nodes.dynSymbol" guid="3a09ed06-6778-4a93-8c31-d7914a35baba" nickname="Input" x="14.9951476511123" y="203.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="world height" />
+    </Dynamo.Nodes.dynSymbol>
+    <Dynamo.Nodes.dynNewList type="Dynamo.Nodes.dynNewList" guid="f89369e2-f55f-4662-836e-0f4975b0b216" nickname="List" x="832.995147651112" y="85.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Input name="index0" />
+      <Input name="index1" />
+    </Dynamo.Nodes.dynNewList>
+    <Dynamo.Nodes.dynSubtraction type="Dynamo.Nodes.dynSubtraction" guid="e509779f-fe20-41a5-a0ca-31597c201b06" nickname="Subtract" x="440.995147651112" y="27.52" isVisible="true" isUpstreamVisible="true" lacing="Longest" />
+    <Dynamo.Nodes.dynMultiplication type="Dynamo.Nodes.dynMultiplication" guid="cc40e9e1-9f38-4439-88b6-4fb734b0a5ac" nickname="Multiply" x="581.995147651112" y="181.52" isVisible="true" isUpstreamVisible="true" lacing="Longest" />
+    <Dynamo.Nodes.dynDoubleInput type="Dynamo.Nodes.dynDoubleInput" guid="362cdaa1-d3ec-413a-a8e6-11776c906939" nickname="Number" x="445.995147651112" y="142.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <System.Double value="-0.9" />
+    </Dynamo.Nodes.dynDoubleInput>
+    <Dynamo.Nodes.dynOutput type="Dynamo.Nodes.dynOutput" guid="261a5e40-e8fa-49a9-936f-23851a66d4de" nickname="Output" x="1024.99514765111" y="93.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="bouncedWorld" />
+    </Dynamo.Nodes.dynOutput>
+    <Dynamo.Nodes.dynAddition type="Dynamo.Nodes.dynAddition" guid="a3843de2-93be-4074-be6d-f91c2e1a5351" nickname="Add" x="687.995147651112" y="33.52" isVisible="true" isUpstreamVisible="true" lacing="Longest" />
+  </dynElements>
+  <dynConnectors>
+    <Dynamo.Connectors.dynConnectorModel start="0d5c336d-79c5-4302-b5d9-52db34016d88" start_index="0" end="cc40e9e1-9f38-4439-88b6-4fb734b0a5ac" end_index="0" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="05912a18-aba3-42ec-8b58-a458bfab6279" start_index="0" end="e509779f-fe20-41a5-a0ca-31597c201b06" end_index="1" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="3a09ed06-6778-4a93-8c31-d7914a35baba" start_index="0" end="e509779f-fe20-41a5-a0ca-31597c201b06" end_index="0" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="f89369e2-f55f-4662-836e-0f4975b0b216" start_index="0" end="261a5e40-e8fa-49a9-936f-23851a66d4de" end_index="0" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="e509779f-fe20-41a5-a0ca-31597c201b06" start_index="0" end="a3843de2-93be-4074-be6d-f91c2e1a5351" end_index="0" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="cc40e9e1-9f38-4439-88b6-4fb734b0a5ac" start_index="0" end="f89369e2-f55f-4662-836e-0f4975b0b216" end_index="1" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="362cdaa1-d3ec-413a-a8e6-11776c906939" start_index="0" end="cc40e9e1-9f38-4439-88b6-4fb734b0a5ac" end_index="1" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="362cdaa1-d3ec-413a-a8e6-11776c906939" start_index="0" end="a3843de2-93be-4074-be6d-f91c2e1a5351" end_index="1" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="a3843de2-93be-4074-be6d-f91c2e1a5351" start_index="0" end="f89369e2-f55f-4662-836e-0f4975b0b216" end_index="0" portType="0" />
+  </dynConnectors>
+  <dynNotes />
+</dynWorkspace>

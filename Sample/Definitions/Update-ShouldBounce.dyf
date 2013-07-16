@@ -1,0 +1,26 @@
+<dynWorkspace X="0" Y="0" zoom="1" Name="Update-ShouldBounce" Category="MyGame" ID="48463b7d-326c-4a79-8f3c-54f9e6104bf8">
+  <dynElements>
+    <Dynamo.Nodes.dynSymbol type="Dynamo.Nodes.dynSymbol" guid="6061739f-bd92-4c68-a2af-a3fa67107578" nickname="Input" x="0" y="15.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="ball pos" />
+    </Dynamo.Nodes.dynSymbol>
+    <Dynamo.Nodes.dynSymbol type="Dynamo.Nodes.dynSymbol" guid="08a9ccc0-a1e3-480c-af27-378b0c55d6a2" nickname="Input" x="0" y="83.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="ball radius" />
+    </Dynamo.Nodes.dynSymbol>
+    <Dynamo.Nodes.dynSymbol type="Dynamo.Nodes.dynSymbol" guid="c585bdc5-821f-42d7-a32c-98930ae438d7" nickname="Input" x="0" y="156.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="world height" />
+    </Dynamo.Nodes.dynSymbol>
+    <Dynamo.Nodes.dynAddition type="Dynamo.Nodes.dynAddition" guid="4626965a-84bc-4eeb-8d7e-ac41ed9fd421" nickname="Add" x="182.995147651112" y="17.52" isVisible="true" isUpstreamVisible="true" lacing="Longest" />
+    <Dynamo.Nodes.dynGreaterThanEquals type="Dynamo.Nodes.dynGreaterThanEquals" guid="13fd1ba9-9415-4267-93fd-8d7d61e4c8e0" nickname="Greater Than Or Equal" x="418.995147651112" y="57.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled" />
+    <Dynamo.Nodes.dynOutput type="Dynamo.Nodes.dynOutput" guid="5535bdf7-218c-4b18-99ed-fca84e44b911" nickname="Output" x="585.995147651112" y="62.52" isVisible="true" isUpstreamVisible="true" lacing="Disabled">
+      <Symbol value="" />
+    </Dynamo.Nodes.dynOutput>
+  </dynElements>
+  <dynConnectors>
+    <Dynamo.Connectors.dynConnectorModel start="6061739f-bd92-4c68-a2af-a3fa67107578" start_index="0" end="4626965a-84bc-4eeb-8d7e-ac41ed9fd421" end_index="0" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="08a9ccc0-a1e3-480c-af27-378b0c55d6a2" start_index="0" end="4626965a-84bc-4eeb-8d7e-ac41ed9fd421" end_index="1" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="c585bdc5-821f-42d7-a32c-98930ae438d7" start_index="0" end="13fd1ba9-9415-4267-93fd-8d7d61e4c8e0" end_index="1" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="4626965a-84bc-4eeb-8d7e-ac41ed9fd421" start_index="0" end="13fd1ba9-9415-4267-93fd-8d7d61e4c8e0" end_index="0" portType="0" />
+    <Dynamo.Connectors.dynConnectorModel start="13fd1ba9-9415-4267-93fd-8d7d61e4c8e0" start_index="0" end="5535bdf7-218c-4b18-99ed-fca84e44b911" end_index="0" portType="0" />
+  </dynConnectors>
+  <dynNotes />
+</dynWorkspace>
