@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamoXNA", "DynamoXNA.csproj", "{DF039A31-371A-4C8B-9550-F660F93A679A}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "DynamoXNAContent", "DynamoXNAContent\DynamoXNAContent.contentproj", "{EBB93174-F327-4473-971F-E5C941A04A5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF039A31-371A-4C8B-9550-F660F93A679A}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{DF039A31-371A-4C8B-9550-F660F93A679A}.Debug|x86.ActiveCfg = Debug|x86
+		{DF039A31-371A-4C8B-9550-F660F93A679A}.Debug|x86.Build.0 = Debug|x86
+		{DF039A31-371A-4C8B-9550-F660F93A679A}.Release|Any CPU.ActiveCfg = Release|x86
+		{DF039A31-371A-4C8B-9550-F660F93A679A}.Release|x86.ActiveCfg = Release|x86
+		{DF039A31-371A-4C8B-9550-F660F93A679A}.Release|x86.Build.0 = Release|x86
+		{EBB93174-F327-4473-971F-E5C941A04A5F}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EBB93174-F327-4473-971F-E5C941A04A5F}.Debug|x86.ActiveCfg = Debug|x86
+		{EBB93174-F327-4473-971F-E5C941A04A5F}.Release|Any CPU.ActiveCfg = Release|x86
+		{EBB93174-F327-4473-971F-E5C941A04A5F}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
